@@ -1,0 +1,16 @@
+# Variáveis de ambiente / segredos
+.env
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Vector store (gerado pela ingestão, não deve ser versionado)
+chroma_db/
+
+# Arquivos de sistema
+.DS_Store
