@@ -142,7 +142,11 @@ Essa resposta demonstra que o agente combina corretamente informações vindas d
 
 ## Deploy
 
-*Seção em construção — deploy na Oracle Cloud Infrastructure (OCI), nível Always Free.*
+O agente está publicado no **Streamlit Community Cloud**:
+
+🔗 **[https://mega-brain-t3xn65pzlwxuuhp5o3xjfn.streamlit.app/](https://mega-brain-t3xn65pzlwxuuhp5o3xjfn.streamlit.app/)**
+
+**Nota sobre a escolha de infraestrutura:** o desafio original sugere deploy na Oracle Cloud Infrastructure (OCI). Optou-se pelo Streamlit Community Cloud por simplicidade de publicação, já que o Streamlit se integra nativamente ao GitHub e elimina a necessidade de provisionar e configurar servidor, rede e processo manualmente. Em uma eventual migração para a OCI, a aplicação rodaria em uma instância Compute (Always Free, ARM Ampere A1), com o Streamlit servido diretamente ou por trás de um proxy reverso (Nginx).
 
 ## Tecnologias utilizadas
 
