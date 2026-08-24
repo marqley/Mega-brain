@@ -2,3 +2,4 @@ pdfplumber
 google-genai
 python-dotenv
 chromadb
+streamlit
