@@ -17,7 +17,7 @@ def embed_document(texto: str) -> list[float]:
 
 def embed_query(texto: str) -> list[float]:
     resultado = client.models.embed_content(
-        model="text-embedding-004",
+        model="gemini-embedding-001",
         contents=texto,
         config={"task_type": "RETRIEVAL_QUERY"}
     )
